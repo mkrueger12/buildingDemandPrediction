@@ -8,8 +8,8 @@ import boto3
 import io
 
 # Data Parameters
-s3 = boto3.client('s3', aws_access_key_id='AKIA6DK5LBRLFPRTV4C5',
-                  aws_secret_access_key='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')
+s3 = boto3.client('s3', aws_access_key_id='XXXXXXXXX',
+                  aws_secret_access_key='XXXXXX')
 
 aws_bucket = 'energydataaps'
 data_file = 'combined_data_clean.csv'
